@@ -1,7 +1,7 @@
-const removeFromArray = function (prm, ...index){
+const removeFromArray = function (arr, ...args){
 /* console.log(prm.slice(...index)) */
 
-    return prm.filter(x => !index.includes(x))
+    return arr.filter(i => !args.includes(i))
 } ;
 
 
